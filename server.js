@@ -4,7 +4,8 @@ const connectDB = require('./db/conn')
 require("dotenv").config()
 
 const product_route = require("./routes/products")
-`   
+
+
 const PORT = process.env.PORT || 5000;
 
 app.get('/',(req,res)=>{
