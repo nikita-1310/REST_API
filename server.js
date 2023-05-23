@@ -9,7 +9,6 @@ const PORT = process.env.PORT || 5000;
 app.get('/',(req,res)=>{
     res.send("hiii")
 })
-
 //middelware or set to router   
 app.use("/api/products", product_route)
 
